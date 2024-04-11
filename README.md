@@ -21,6 +21,8 @@ Clone this repository:
 bash
 Copy code
 git clone https://github.com/your-username/RAG-App-With_Llama2-Model.git
+
+
 Navigate to the cloned repository:
 bash
 cd RAG-App-With_Llama2-Model
