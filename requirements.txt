@@ -1,0 +1,9 @@
+llama-index
+openai
+pypdf
+python-dotenv
+HuggingFaceKey
+transformers
+accelerate
+einops
+langchain
