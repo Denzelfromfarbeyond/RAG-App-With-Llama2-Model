@@ -42,7 +42,7 @@ pip install llama-index-graph-stores-nebula
 
 pip install llama-index-llms-azure-openai
 
-os.environ['OPENAI_API_KEY']=os.getenv("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")
+os.environ['OPENAI_API_KEY']=os.getenv("")
 
 #from llama_index import VectorStoreIndex,SimpleDirectoryReader
 documents=SimpleDirectoryReader("/content/data").load_data()
