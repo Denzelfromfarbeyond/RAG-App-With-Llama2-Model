@@ -1,9 +1,9 @@
-RAG LLM (Retrieval Augmented Generation Language Model) App
+  **RAG LLM (Retrieval Augmented Generation Language Model) App**
 
-Overview
+**Overview**
 This repository contains a simple RAG LLM (Retrieval Augmented Generation Language Model) app built using Python. The app utilizes PyPDF to extract text from PDF documents, LLAMA2 for retrieving relevant passages, and Hugging Face's transformers library to generate text.
 
-Requirements
+**Requirements**
 To run this app, you need the following dependencies:
 
 
@@ -16,7 +16,7 @@ Hugging Face
 You can install the dependencies using pip:
 
 
-Usage
+**Usage**
 Clone this repository:
 bash
 Copy code
@@ -34,12 +34,12 @@ python app.py
 
 Follow the instructions prompted by the app to provide a PDF file and a query.
 
-Functionality
+**Functionality**
 PDF Parsing: The app utilizes PyPDF2 to extract text from PDF documents.
 Relevant Passage Retrieval: It queries LLAMA2 with the provided query to retrieve relevant passages from a pre-indexed document collection.
 Text Generation: Using Hugging Face's transformers library, the app generates text based on the retrieved passages and the provided query.
 
-Configuration
+**Configuration**
 You can configure the app by modifying the following parameters in the config.py file:
 
 LLAMA2_ENDPOINT: The endpoint URL for the LLAMA2 service.
@@ -49,11 +49,11 @@ Contributions
 Contributions to improve this app are welcome! If you have any ideas for enhancements or find any issues, feel free to open an issue or submit a pull request.
 
 
-License
+**License**
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
-Acknowledgments
+**Acknowledgments**
 LLAMA2: https://github.com/allenai/llama
 Hugging Face Transformers: https://github.com/huggingface/transformers
 PyPDF2: https://github.com/mstamy2/PyPDF2
